@@ -42,9 +42,10 @@ header:not(.scrolled) .mono{background:rgba(244,238,226,.14);color:var(--cream);
 .brand{display:flex;align-items:center;gap:13px}
 .mono{width:46px;height:46px;border-radius:13px;background:var(--pine);color:var(--clay2);display:grid;place-items:center;font-family:var(--disp);font-size:20px;flex:none;box-shadow:var(--sh2);transition:.4s}
 .brand b{font-family:var(--disp);font-size:20px;display:block;line-height:1.02;transition:.4s}
-.logomark{background:#fff;border-radius:13px;padding:7px 12px;display:inline-flex;align-items:center;box-shadow:var(--sh2);transition:.4s}
-.logomark img{height:52px;width:auto;display:block;transition:.4s}
-header.scrolled .logomark img{height:44px}
+.logomark{display:inline-flex;align-items:center;transition:.4s}
+.logomark img{height:56px;width:auto;display:block;transition:.4s}
+header.scrolled .logomark img{height:46px}
+header:not(.scrolled) .logomark img{filter:drop-shadow(0 2px 9px rgba(0,0,0,.38))}
 .brand span{font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--mut);transition:.4s}
 nav.links{display:flex;align-items:center;gap:32px}
 nav.links a{font-size:14.5px;font-weight:500;position:relative;padding:4px 0;transition:.25s}
